@@ -1,0 +1,253 @@
+.brandImage{
+    height: 20%;
+    width: 20%;
+}
+h2 {
+    color: #ff4444;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    text-shadow: 2px 1px #101119;
+
+}
+body {
+    background-image: url("img/Background/RedWhiteCakes.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+/* .homePage {
+    background-image: url("img/Background/Graduation.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 40%;
+    width: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+.homePage a {
+    color: #F3A6CF;   
+} */
+div h1{
+    background-color: white;
+}
+
+nav {
+    background-color: #101119;
+}
+h1.display-1 {
+    margin-bottom: 0px;
+}
+
+#mainNavbar a{
+    color: #D9E4E8;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding-right: 30px;
+
+}
+#mainNavbar a:hover {
+    color: rgb(254, 1, 3);
+}
+
+.mainContent{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: white;
+    height: 80%;
+    border-width: 8px;
+    border-style: double;
+    border-color: rgb(254, 1, 3);
+}
+/* .mainContentHome{
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: rgb(255, 255, 255);
+    height: 80%;
+    border-width: 8px;
+    border-style: double;
+    border-color: black;
+    color: #67797d;
+} */
+
+.gallery {
+    margin: 5px;
+    float: left;
+    width: 100%;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10%;
+}
+.gallery img:hover{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border: 3px solid #6e2101;
+}
+/* .galleryHome img:hover{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+    border: 3px solid black;
+} */
+hr.styleHR {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+hr.styleHR:after {
+    content:url("img/Logo/Cupcake.png");
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+/* hr.styleHRHome {
+    overflow: visible;
+    padding: 0;
+    border: none;
+    border-top: medium double #FFD500;
+    color: rgba(111,43,144,255);
+    text-align: center;
+}
+hr.styleHRHome:after {
+    content:url("img/Icons/graduated.png");
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: rgb(255, 255, 255);
+} */
+.copyright{
+    font-size: 12px;
+}
+.aboutUs p{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.socialButtons {
+    padding-top: 48px;
+    padding-left: 65px;
+}
+.socialButtons a{
+    color: #ff4444;
+}
+.socialButtons a:hover{
+    color: #333;
+}
+/* .socialButtonsHome {
+    padding-top: 48px;
+    padding-left: 65px;
+}
+.socialButtonsHome a{
+    color: black;
+}
+.socialButtonsHome a:hover{
+    color: #FFD500;
+} */
+#filler{
+    opacity: 0;
+    font-size: 4px;
+}
+.contactUs {
+    width: 100%;
+    padding-left: 20px;
+}
+.contactUs p{
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.contactUs p a{
+    color: #ff4444;
+}
+
+/* .contactUsHome {
+    width: 100%;
+    padding-left: 20px;
+}
+.contactUsHome p{
+    width: 100%;
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.contactUsHome p a{
+    color: #FFCC1C;
+    text-shadow: #876D0F 1px 1px 0px;
+} */
+.copyright a{
+    color: #ff4444;
+}
+/* .copyrightHome a{
+    color: #FFCC1C;
+    text-shadow: #876D0F 1px 1px 0px;
+} */
+.menuImages img{
+    width: 100%;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+}
+.menuTitle {
+    text-align: center;
+}
+.cakeTitle {
+    color: #ff4444;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    text-shadow: 2px 1px black;
+    text-align: center;
+}
+/* .cakeTitleHome {
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    text-align: center;
+    text-shadow: 2px 1px #f9ceee;
+    text-shadow: 3px 2px gray;
+} */
+.navbar-nav > li > .dropdown-menu { background-color: #101119;
+}
+.cakeSubTitle {
+    color: #ff4444;
+    font-family: 'Dancing Script', cursive;
+    font-size: 64px;
+    text-shadow: 2px 1px #101119;
+    text-align: left;
+}
+.blurb {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.blurb p a {
+    color: #ff4444;
+}
+/* .blurbHome {
+    font-size: 18px;
+    text-align: center;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.blurbHome p a {
+    color: #FFCC1C;
+    text-shadow: #876D0F 1px 1px 0px;
+} */
